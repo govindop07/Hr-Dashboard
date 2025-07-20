@@ -23,8 +23,7 @@ Now your project should be running perfectly on (http://localhost:3000).
 <img width="1872" height="933" alt="image" src="https://github.com/user-attachments/assets/39023ef5-6193-48aa-b178-5cb81ed76859" />
 
 
-# The user can click on the view button to see the details of a single employee.
-
+## The user can click on the view button to see the details of a single employee.
 ## User can bookmark the employees using bookmark button on homescreen and access/remove the bookmarked employees using navbar-
 
 
@@ -35,4 +34,8 @@ Now your project should be running perfectly on (http://localhost:3000).
 
 
 <img width="1918" height="832" alt="image" src="https://github.com/user-attachments/assets/4fe8ccf9-d395-484e-9232-7f07f4f19b9b" />
+
+
+
+
 
