@@ -8,10 +8,10 @@ export default function BookmarksPage() {
 
   return (
     <main className="p-6">
-      <h1 className="text-2xl font-bold mb-4">📌 Bookmarked Employees</h1>
+      <h1 className="text-2xl font-bold mb-4">Bookmarked Employees</h1>
 
       {bookmarks.length === 0 ? (
-        <p className="text-gray-500">You haven't bookmarked anyone yet.</p>
+        <p className="text-gray-500">You have not bookmarked anyone yet.</p>
       ) : (
         <ul className="space-y-4">
           {bookmarks.map((user) => (
