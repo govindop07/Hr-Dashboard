@@ -4,11 +4,11 @@ import { useState } from 'react';
 export default function FeedbackForm({ userId }) {
   const [feedback, setFeedback] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  console.log(userId);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (feedback.trim() === '') return;
-    // Optionally send to API
     setSubmitted(true);
   };
 
@@ -23,7 +23,7 @@ export default function FeedbackForm({ userId }) {
         required
       />
       <button type="submit" className="btn">Submit</button>
-      {submitted && <p className="text-green-600">✅ Feedback submitted!</p>}
+      {submitted && <p className="text-green-600">Feedback submitted!</p>}
     </form>
   );
 }
